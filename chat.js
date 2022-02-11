@@ -1,9 +1,8 @@
 const input = require("readline-sync");
 
-// console.log("Saudações caro(a) viajante! Mas antes de começar...");
-console.log("Opa sobrinho! Tá grande em moleque. Diz aí pro tio...");
+// console.log("Saudações caro(a) viajante! Só uma coisa antes decomeçar...");
 
-const idade = input.question("Tu tem quantos anos mesmo? ");
+// const idade = input.question("Quantos anos você tem? ");
 
 // if (idade >= 15 && idade < 20) {
 //   console.log("Empunhe sua espada, vamos treinar!");
@@ -15,11 +14,16 @@ const idade = input.question("Tu tem quantos anos mesmo? ");
 //   );
 // }
 
+
+console.log("Opa sobrinho! Tá grande em moleque. Diz aí pro tio...");
+
+const idade = input.question("Tu tem quantos anos mesmo? ");
+
 if (idade >= 16 && idade < 19) {
-  console.log("Ja decidiu o que vai fazer da vida?");
+  console.log("Ja decidiu o que vai fazer da vida? Medicina né?");
 } else if (idade >= 19) {
-  console.log("Já ta na hora de criar vergonha nessa cara em.");
-} else if (idade > 12 && idade < 15) {
+  console.log("Já ta na hora de criar vergonha nessa cara em rapaz.");
+} else if (idade >= 12 && idade <= 15) {
   console.log("E as menininhas em? heheheh.");
 } else {
   console.log("Meu fi quer uma prata, quer?");
